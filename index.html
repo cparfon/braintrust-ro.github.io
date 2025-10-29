@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BrainTrust.ro — IT & Cloud Solutions for Businesses</title>
+  <meta name="description" content="BrainTrust provides IT services, network & infrastructure design, server administration, cloud management, cybersecurity and software development for companies across Romania and the EU.">
+  <link rel="canonical" href="https://braintrust.ro/">
+
+  <meta property="og:title" content="BrainTrust.ro — IT & Cloud Solutions for Businesses">
+  <meta property="og:description" content="IT services, networks, servers, cloud, and cybersecurity for modern companies.">
+  <meta property="og:url" content="https://braintrust-ro.github.io/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+
+  <style>
+    :root { --bg:#ffffff; --fg:#111; --muted:#555; --accent:#0a66c2; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0f1115; --fg:#eaeef2; --muted:#a8b3cf; --accent:#4ea1ff; }
+    }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial; }
+    .wrap { max-width: 780px; margin: 12vh auto; padding: 0 20px; }
+    header { display:flex; align-items:center; gap:16px; margin-bottom: 16px; }
+    .logo {
+      width:48px; height:48px; border-radius:12px; display:inline-grid; place-items:center;
+      background: radial-gradient(120% 120% at 30% 20%, rgba(255,214,0,.9), rgba(255,153,0,.8) 50%, rgba(255,94,0,.8));
+      color:#fff; font-weight:700; letter-spacing:.5px;
+      box-shadow: 0 6px 24px rgba(0,0,0,.12);
+    }
+    h1 { font-size: clamp(28px, 4vw, 40px); margin: 0; }
+    p.lead { font-size: clamp(18px, 2.4vw, 22px); color:var(--muted); margin: 6px 0 18px; }
+    .cta {
+      display:inline-block; padding:12px 18px; border-radius:12px;
+      text-decoration:none; font-weight:600; border:1px solid var(--accent); color:var(--accent);
+    }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:12px; margin-top:24px;}
+    .card { border:1px solid rgba(100,115,140,.25); border-radius:14px; padding:14px; }
+    footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
+    a { color: var(--accent); }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"BrainTrust",
+    "url":"https://braintrust.ro/",
+    "logo":"https://braintrust.ro/images/logo.png",
+    "sameAs":["https://github.com/BrainTrust-ro"]
+  }
+  </script>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">BT</div>
+      <div>
+        <h1>BrainTrust.ro</h1>
+        <p class="lead">Custom IT & Cloud Solutions for Businesses • Networking • Servers • Cybersecurity • Software Development</p>
+      </div>
+    </header>
+
+    <a class="cta" href="https://braintrust.ro">Visit main site → braintrust.ro</a>
+
+    <section class="grid">
+      <div class="card"><strong>Networking & Infrastructure</strong><br> LAN/Wi-Fi design, firewall, VPN, QoS</div>
+      <div class="card"><strong>Servers & Cloud</strong><br> Linux administration, Docker, backup, observability</div>
+      <div class="card"><strong>Cybersecurity</strong><br> Hardening, WAF, Zero-Trust, security testing</div>
+      <div class="card"><strong>Development</strong><br> Web apps, portals, integrations, automation</div>
+    </section>
+
+    <footer>
+      © 2025 BrainTrust • Page hosted for free with GitHub Pages. The link to <a href="https://braintrust.ro">braintrust.ro</a> is intentionally “dofollow”.
+    </footer>
+  </main>
+</body>
+</html>
